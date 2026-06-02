@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - com.example.githubproxy.GithubControllerIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<div class="breadcrumbs">
+<a class="breadcrumb" href="../index.html">all</a> &gt; 
+<span class="breadcrumb">com.example.githubproxy.GithubControllerIntegrationTest</span>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="successGroup" href="#">Gradle Test Run :test</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Gradle Test Run :test</h2>
+<h1>GithubControllerIntegrationTest</h1>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="" href="#">summary</a>
+</li>
+<li>
+<a class="" href="#">standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>summary</h2>
+<div>
+<div class="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>skipped</p>
+</div>
+</td>
+<td>
+<div class="infoBox duration">
+<div class="counter">4.641s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="test-results">
+<thead>
+<tr>
+<th>Child</th>
+<th hidden="">Name</th>
+<th>Tests</th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Duration</th>
+<th>Success rate</th>
+</tr>
+</thead>
+<tr>
+<td class="success">
+<a href="shouldReturn404WithErrorBodyForNonExistingUser().html">shouldReturn404WithErrorBodyForNonExistingUser()</a>
+</td>
+<td class="path" hidden="">shouldReturn404WithErrorBodyForNonExistingUser()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1.137s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="shouldReturnEmptyListWhenAllRepositoriesAreForks().html">shouldReturnEmptyListWhenAllRepositoriesAreForks()</a>
+</td>
+<td class="path" hidden="">shouldReturnEmptyListWhenAllRepositoriesAreForks()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.103s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="shouldReturnNonForkRepositoriesWithBranches().html">shouldReturnNonForkRepositoriesWithBranches()</a>
+</td>
+<td class="path" hidden="">shouldReturnNonForkRepositoriesWithBranches()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.033s</td>
+<td class="success">100%</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="tab">
+<h2>standard output</h2>
+<span class="code">
+<pre id="root-0-test-stdout-com.example.githubproxy.GithubControllerIntegrationTest">22:55:59.877 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.githubproxy.GithubControllerIntegrationTest]: GithubControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:56:00.107 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.githubproxy.GithubProxyApplication for test class com.example.githubproxy.GithubControllerIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.0)
+
+2026-06-01T22:56:00.567+02:00  INFO 24456 --- [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: application
+2026-06-01T22:56:00.601+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory wiremock... 
+2026-06-01T22:56:00.601+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory stubs... 
+2026-06-01T22:56:00.602+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory mappings... 
+2026-06-01T22:56:00.602+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\test\resources\wiremock... 
+2026-06-01T22:56:00.602+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\test\resources\stubs... 
+2026-06-01T22:56:00.602+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\test\resources\mappings... 
+2026-06-01T22:56:00.602+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\integtest\resources\wiremock... 
+2026-06-01T22:56:00.603+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\integtest\resources\stubs... 
+2026-06-01T22:56:00.603+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Looking for mocks in directory src\integtest\resources\mappings... 
+2026-06-01T22:56:00.604+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : No mocks found under directory
+2026-06-01T22:56:00.606+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Configuring WireMockServer with name 'github-api' on HTTP port: 0 and HTTPS port: -1
+2026-06-01T22:56:01.496+02:00  INFO 24456 --- [    Test worker] WireMock.github-api                      : Using HTTP server impl: Jetty12HttpServer
+2026-06-01T22:56:01.509+02:00  INFO 24456 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.4; built: 2025-11-10T17:42:37.481Z; git: 4137e00793d583cfc4ce76bf607e482178a85597; jvm 25.0.2+10-LTS
+2026-06-01T22:56:01.534+02:00  INFO 24456 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@18e4674d{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@f245bdd{STARTED}}
+2026-06-01T22:56:01.537+02:00  WARN 24456 --- [    Test worker] o.eclipse.jetty.util.DeprecationWarning  : Using @Deprecated Class org.eclipse.jetty.ee10.servlets.CrossOriginFilter
+2026-06-01T22:56:01.541+02:00  INFO 24456 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@18e4674d{/__admin,/__admin,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@f245bdd{STARTED}}
+2026-06-01T22:56:01.543+02:00  INFO 24456 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje10s.ServletContextHandler@33d7765a{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@69ed5ea2{STARTED}}
+2026-06-01T22:56:01.552+02:00  INFO 24456 --- [    Test worker] o.e.j.s.handler.ContextHandler.ROOT      : RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler. Normalized mapped under returned 'null'
+2026-06-01T22:56:01.553+02:00  INFO 24456 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje10s.ServletContextHandler@33d7765a{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.ServletHandler@69ed5ea2{STARTED}}
+2026-06-01T22:56:01.566+02:00  INFO 24456 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.NetworkTrafficServerConnector@5e10bf48{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:50681}
+2026-06-01T22:56:01.567+02:00  INFO 24456 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@69796bd0{STARTING}[12.1.4,sto=1000] @58ms
+2026-06-01T22:56:01.568+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Started WireMockServer with name 'github-api':http://localhost:50681
+2026-06-01T22:56:01.569+02:00  INFO 24456 --- [    Test worker] org.wiremock.spring.internal.Store       : Resolving store from context: application
+2026-06-01T22:56:01.570+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Adding property 'github.url=http://localhost:50681' with HTTP base URL to Spring application context
+2026-06-01T22:56:01.573+02:00  INFO 24456 --- [    Test worker] c.w.s.i.WireMockServerCreator github-api : Adding property 'wiremock.server.port=50681' with HTTP port to Spring application context
+2026-06-01T22:56:01.593+02:00  INFO 24456 --- [    Test worker] c.e.g.GithubControllerIntegrationTest    : Starting GithubControllerIntegrationTest using Java 25.0.2 with PID 24456 (started by lukas in C:\Users\lukas\Downloads\github-proxy\github-proxy)
+2026-06-01T22:56:01.594+02:00  INFO 24456 --- [    Test worker] c.e.g.GithubControllerIntegrationTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-06-01T22:56:02.496+02:00  INFO 24456 --- [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-06-01T22:56:02.512+02:00  INFO 24456 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T22:56:02.514+02:00  INFO 24456 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-06-01T22:56:02.595+02:00  INFO 24456 --- [    Test worker] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 973 ms
+2026-06-01T22:56:03.061+02:00  INFO 24456 --- [    Test worker] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 50682 (http) with context path '/'
+2026-06-01T22:56:03.067+02:00  INFO 24456 --- [    Test worker] c.e.g.GithubControllerIntegrationTest    : Started GithubControllerIntegrationTest in 2.798 seconds (process running for 4.533)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="root-0-test-stdout-com.example.githubproxy.GithubControllerIntegrationTest">Copy</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.3.0</a> at 1 juin 2026, 22:56:04</p>
+</div>
+</div>
+</body>
+</html>
